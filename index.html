@@ -11,16 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="css/style.css">
-
-    <style>
-        .content {
-            margin: 5px;
-        }
-    </style>
 </head>
 <body>
-
-    
     <div class="container border-left border-right">
         <div class="d-flex justify-content-center">
             <nav class="navbar navbar-expand-lg navbar-light col-lg-10">
@@ -46,8 +38,8 @@
                             </li>
                         </ul>
                         <div class="auth-button position-absolute end-0">
-                            <button class="mx-3" style="border:solid 2px #0b6c50; color: #0b6c50; background-color: #FFFFFF; font-weight: 600; padding: .5rem 1.5rem; border-radius: 3rem;">Sign Up</button>
-                            <button class="" style="border:solid 2px #0b6c50; color: #FFFFFF; background-color: #0b6c50; font-weight: 600; padding: .5rem 1.5rem; border-radius: 3rem;">Login</button>
+                            <a class="signup-button mx-3" href="">Sign Up</a>
+                            <a class="login-button" href="">Login</a>
                         </div>
                     </div>
                 </div>
@@ -57,99 +49,96 @@
             <div class="row col-md-12">
                 <div class="row col-md-5">
                     <div class="col-md-6">
-                        <img src="https://s3-alpha-sig.figma.com/img/466b/c090/9f7a9b4ad4983e3ddee5ee3448992b3e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ewb~AnKu00~~AingRyb6mC~DzsbgQm0TbiM7lSG2CICQP1DHWbISxxhS9AY2MaTp~NzaakkKywBYz~vesggaaPXyk8jHmBKMItuNw-cc8roWwV2m3Mi57QOBiJ6od5mgIVmd4GC3HjCjTRjAokIysodXbx6TvtcTH23~EfsYqy~aaoWbI5qi38VkvVMAWTEjr0~6i5jC529ZlkXYyRViZn9itss9u8h~ye5znghJyZfZ1g4vZGCIFCuc~gFkt1wITlUg7VCUK7wXR0VWc6fwuxk58u81QiR51nBcIHtzOlFp8chbuVnpoOdOnR~SpaEJvVR6-y3sFDSv6m3CD9LFsw__" class="rounded mb-4" style="object-fit:cover;width:100%;height:auto;" alt="#">
-                        <img src="https://s3-alpha-sig.figma.com/img/59bf/d040/60f1a67754914be5f193aa2a31ab9b68?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g~1vWZ01TmwBEy~oodFIE1cyjoNJhIDfPCOZZlC2TX2qli5MPbuLyczEdM-lL6W9g-U-ziwUSPnpqayESYZS4zQgD634Nl1JX45hDf10hjvxyRa95C6lP-SYKDVN~9t23v6x7tq-n-dNBnzFikHwMdW3Qu76qKRkkvu5xA24k59RY78rvq~uiT80VPjxU~JRah3-UFFycpIOFNQNX4buI2wtpeBUaJLalok5hiu96nxJd2FtVmaGzMWGNw81ia8T6ri~4uz0ecethcP-8TKE9cEt9FBuw3pqGnjGgrMuRHoLEI24lcPn-raD4YrJc5YSRrBzHm2sPt-dc04a4Um4oA__" class="rounded mb-4" style="object-fit:cover;width:100%;height:auto;" alt="#">
+                        <img src="https://s3-alpha-sig.figma.com/img/466b/c090/9f7a9b4ad4983e3ddee5ee3448992b3e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ewb~AnKu00~~AingRyb6mC~DzsbgQm0TbiM7lSG2CICQP1DHWbISxxhS9AY2MaTp~NzaakkKywBYz~vesggaaPXyk8jHmBKMItuNw-cc8roWwV2m3Mi57QOBiJ6od5mgIVmd4GC3HjCjTRjAokIysodXbx6TvtcTH23~EfsYqy~aaoWbI5qi38VkvVMAWTEjr0~6i5jC529ZlkXYyRViZn9itss9u8h~ye5znghJyZfZ1g4vZGCIFCuc~gFkt1wITlUg7VCUK7wXR0VWc6fwuxk58u81QiR51nBcIHtzOlFp8chbuVnpoOdOnR~SpaEJvVR6-y3sFDSv6m3CD9LFsw__" class="rounded mb-4" alt="#">
+                        <img src="https://s3-alpha-sig.figma.com/img/59bf/d040/60f1a67754914be5f193aa2a31ab9b68?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g~1vWZ01TmwBEy~oodFIE1cyjoNJhIDfPCOZZlC2TX2qli5MPbuLyczEdM-lL6W9g-U-ziwUSPnpqayESYZS4zQgD634Nl1JX45hDf10hjvxyRa95C6lP-SYKDVN~9t23v6x7tq-n-dNBnzFikHwMdW3Qu76qKRkkvu5xA24k59RY78rvq~uiT80VPjxU~JRah3-UFFycpIOFNQNX4buI2wtpeBUaJLalok5hiu96nxJd2FtVmaGzMWGNw81ia8T6ri~4uz0ecethcP-8TKE9cEt9FBuw3pqGnjGgrMuRHoLEI24lcPn-raD4YrJc5YSRrBzHm2sPt-dc04a4Um4oA__" class="rounded mb-4" alt="#">
                     </div>
                     <div class="col-md-6">
-                        <img src="https://s3-alpha-sig.figma.com/img/c400/f0a8/aa2c909945f3b5114f02e5404923bd9e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeD59CuUL3n4Ktye8yCxe2PeDPObdWZKAPDJ0Xc7g-4EMBap-h1SV1kOW8PjPzxJHyz2fnvlQvmlM8jgOB-Uf4nfaS0vZ3LipvghJlAokoLjC4b1kZxowe65aFfdy27ArF~XL3fmsZ6dEJmpD-l9VE1KutXes-aVIqcLvlvRBcl00wMtcVqxJ3I4dILQeOBGMpiH4uQ0Wen-eMlpLOr48oPxaG9mAR23KVw~GDmHrgzdhOorCXJqKM1oVo-1Ske4tJpfmDwSXVdW1RD2Mbl6cmtpBDEGppPmH6shFfnXfypqq4TKpmuLjB2UlEJSrCvYsdEIyLm4q9AxJkudyjxQtA__" class="rounded mb-4" style="object-fit:cover;width:100%;height:auto;" alt="#">
-                        <img src="https://s3-alpha-sig.figma.com/img/ea3e/0669/d6eb5b40be119d927da952dca63d109c?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RyYeix0xGYPEYc4GSmQqBmiy-Ej0dkOCXP-ZxEyNXhd~Q0hsgy5x34vbiVDx68oFNk7xv9TtwMGZs5imQvzWxj-6u4B0MV8uGjlcfZ1Niwjsc1GXdSEN6OJjuoWGzXwvsegf-ool1NZzASb7egmS2gYGhLf7hvWxaVk3nUT8Kh2pwWgb0k5r7sBJa-tMBWazxbnoqqGi4onGIfZfpc5XOhgP9HoIUBks-DrsU5rDEN9jJsiLZyD7jTkCMvPKl51v42E259Yu~UFqNMeqHP5QLTJ2MeDQRF1dXyVmK961Lx6p09fR0o78z5uwR1sDMEBOn0uxlD~q1RSkNDZVHDbmLA__" class="rounded mb-4" style="object-fit:cover;width:100%;height:auto;" alt="#">
+                        <img src="https://s3-alpha-sig.figma.com/img/c400/f0a8/aa2c909945f3b5114f02e5404923bd9e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JeD59CuUL3n4Ktye8yCxe2PeDPObdWZKAPDJ0Xc7g-4EMBap-h1SV1kOW8PjPzxJHyz2fnvlQvmlM8jgOB-Uf4nfaS0vZ3LipvghJlAokoLjC4b1kZxowe65aFfdy27ArF~XL3fmsZ6dEJmpD-l9VE1KutXes-aVIqcLvlvRBcl00wMtcVqxJ3I4dILQeOBGMpiH4uQ0Wen-eMlpLOr48oPxaG9mAR23KVw~GDmHrgzdhOorCXJqKM1oVo-1Ske4tJpfmDwSXVdW1RD2Mbl6cmtpBDEGppPmH6shFfnXfypqq4TKpmuLjB2UlEJSrCvYsdEIyLm4q9AxJkudyjxQtA__" class="rounded mb-4" alt="#">
+                        <img src="https://s3-alpha-sig.figma.com/img/ea3e/0669/d6eb5b40be119d927da952dca63d109c?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RyYeix0xGYPEYc4GSmQqBmiy-Ej0dkOCXP-ZxEyNXhd~Q0hsgy5x34vbiVDx68oFNk7xv9TtwMGZs5imQvzWxj-6u4B0MV8uGjlcfZ1Niwjsc1GXdSEN6OJjuoWGzXwvsegf-ool1NZzASb7egmS2gYGhLf7hvWxaVk3nUT8Kh2pwWgb0k5r7sBJa-tMBWazxbnoqqGi4onGIfZfpc5XOhgP9HoIUBks-DrsU5rDEN9jJsiLZyD7jTkCMvPKl51v42E259Yu~UFqNMeqHP5QLTJ2MeDQRF1dXyVmK961Lx6p09fR0o78z5uwR1sDMEBOn0uxlD~q1RSkNDZVHDbmLA__" class="rounded mb-4" alt="#">
                     </div>
                 </div>
                 <div class="col-md-7">
                     <div class="mb-5">
-                        <p class="mb-3" style="color:#238655;font-family:'Subtitle 1',sans-serif;font-size:18px;font-weight:800;">#KALGENACADEMIA</p>
-                        <p class="mb-3" style="font-family:'Manrope',sans-serif;font-size:32px;font-weight:800;">Grow your skills, learn with us from anywhere</p>
-                        <p style="text-align:justify;font-family:'Manrope',sans-serif;font-size:18px;font-weight:400;">Our platform is dedicated to empowering individuals on their health journey through a collection of thoughtfully crafted online courses.</p>
+                        <p class="mb-3 hastag">#KALGENACADEMIA</p>
+                        <p class="mb-3 title">Grow your skills, learn with us from anywhere</p>
+                        <p class="text">Our platform is dedicated to empowering individuals on their health journey through a collection of thoughtfully crafted online courses.</p>
                     </div>
                     <div class="mb-5">
                         <div class="row col-md-12">
                             <div class="col-md-6">
-                                <h4 class="mb-4" style="color: #2A2A2A; font-family: 'Subtitle 1', sans-serif; font-size: 20px; font-weight: 700;">
-                                    <a class="btn" style="background-color:#00d0c3;color:white;border-radius: 17px;"><i class="fa fa-check"></i></a>&nbsp
+                                <h4 class="mb-4 title-point">
+                                    <a class="btn  point-1"><i class="fa fa-check"></i></a>&nbsp
                                     <b>Publication & Research</b>
                                 </h4>
-                                <h4 class="mb-4" style="color: #2A2A2A; font-family: 'Subtitle 1', sans-serif; font-size: 20px; font-weight: 700;">
-                                    <a class="btn" style="background-color:#7456f6;color:white;border-radius: 17px;"><i class="fa fa-check"></i></a>&nbsp
+                                <h4 class="mb-4 title-point">
+                                    <a class="btn point-2"><i class="fa fa-check"></i></a>&nbsp
                                     <b>Workshop & Video</b>
                                 </h4>
                             </div>
-                            <div class="col-md-6">
-                                <h4 class="mb-4" style="color: #2A2A2A; font-family: 'Subtitle 1', sans-serif; font-size: 20px; font-weight: 700;">
-                                    <a class="btn" style="background-color:#f79320;color:white;border-radius: 17px;"><i class="fa fa-check"></i></a>&nbsp
+                            <div class="col-md-6 title-point">
+                                <h4 class="mb-4">
+                                    <a class="btn point-3"><i class="fa fa-check"></i></a>&nbsp
                                     <b>Meet The Expert</b>
                                 </h4>
-                                <h4 class="mb-4" style="color: #2A2A2A; font-family: 'Subtitle 1', sans-serif; font-size: 20px; font-weight: 700;">
-                                    <a class="btn" style="background-color:#f45970;color:white;border-radius: 17px;"><i class="fa fa-check"></i></a>&nbsp
+                                <h4 class="mb-4 title-point">
+                                    <a class="btn point-4"><i class="fa fa-check"></i></a>&nbsp
                                     <b>Webinar</b>
                                 </h4>
                             </div>
                         </div>
                     </div>
-                    <a href="#" class="btn" style="background-color:#238655;color:#fff;height:64px;width:224px;font-family:'Subtitle 2',sans-serif;font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;width:200px;height:60px;border-radius:50px;font-size:16px;cursor:pointer;">
+                    <a href="#" class="btn more-info">
                         Discover More
                     </a>
                 </div>
             </div>
-            <div class="col-md-12 mt-4" style="background-color:#f45970;flex-direction:row;align-items:center;justify-content:center;padding:12px;width:100%;height:72px;margin:0 auto;background:#FFF;box-shadow:0 16px 24px rgb(0 0 0 / .08);border-radius:36px;font-family:'Subtitle 2',sans-serif;font-size:16px;font-weight:700;">
+        </div>
+    </div>
+    <!-- SERVICES -->
+    <div class="d-flex justify-content-center">
+        <div class="container" style="position: absolute; z-index: 1;">
+            <div class="col-md-12 mt-4 navbar-info">
                 <div class="row">
-                    <style>
-                        .custom-link { display:flex;flex-direction:column;justify-content:center;align-items:center;padding:12px 24px;gap:8px;width:208px;height:48px;background:#FFF;border-radius:24px;flex:none;order:0;flex-grow:1;color:#2A2A2A;text-decoration:none; }
-                        .custom-link.active { background:#FFF;border:2px solid #0B6C50;border-radius:24px; }
-                    </style>
-                    <div class="row">
                         <a class="custom-link" href="">Publication & Research</a>
                         <a class="custom-link active" href="">Webinar</a>
                         <a class="custom-link" href="">Workshop & Video</a>
                         <a class="custom-link" href="">Meet The Expert</a>
-                    </div>
                 </div>
             </div>
-           
         </div>
     </div>
-        <div class="col-md-12" style="background: #f2f8f2;margin-top: -2rem;position: absolute; z-index: -1; padding: 3rem;">
-            <p class="mb-3" style="color:#238655;font-family:'Subtitle 1',sans-serif;font-size:18px;font-weight:800;">#KALGENACADEMIA</p>
-            <p style="width:512px;height:88px;font-family:'Manrope';font-style:normal;font-weight:800;font-size:32px;line-height:44px;letter-spacing:-.02em;color:#2A2A2A;flex:none;order:1;align-self:stretch;flex-grow:0;">Meet the Experts in Their Field and Expand Your Horizons.</p>
+    <div class="col-md-12 services-container">
+        <div class="container">
+            <p class="mb-3 hastag">#KALGENACADEMIA</p>
+            <p class="title">Meet the Experts in Their Field and Expand Your Horizons.</p>
             <br>
             <div>
                 <div>
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide" style="justify-content: center;align-items: center; ">
+                            <div class="swiper-slide">
                                 <div class="d-flex justify-content-center">
                                     <div class="card" style="width: 25rem; border-radius: 8px; overflow: hidden;">
                                         <img src="https://s3-alpha-sig.figma.com/img/4177/316c/434c3f0887b54840c0480ff90249438b?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TT1xKjEb20q86G-ycsWlDfMgYnwE2DBL4mE9k9W7G6vj8v8LZmjh1wy7v~riK1hptEjURFolT6yVt1aGB31IcN0xB9~THbzLkC9XZQBF4ip0NiTbZabVVX98rtjWCH5inRh21Pm22D6Xqthckd~rMv6Y8YsOnlevGHPcFnU-idtPfdEbHUCPw41gTmOKgpfa~c8M5SERi~g-jMF3Z~cpKSM6YSAs2HGz1x4Oye1vBaPvvRtHFLsvvTdLi24e2UHY4Wemi~YbfpeLq3RLQV~YWg9~YMsTsSF5FeYnWhQzxoQuge3l4B5sURT8ZdV1dUk5N-hBQCGtup~i~iBC8e9xsg__" class="card-img-top" alt="Foto 1">
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-center">
-                                    <div class="card" style="width: 20rem; background-color: blanchedalmond;margin-top: -5rem;">
-                                        <div class="card-body" style="padding: 1rem;">
-                                            <div style="display: flex; align-items: center; margin-bottom: 0.5rem;">
-                                                <i class="fa-regular fa-clock" style="color:#0B6C50; width: 24px; height: 24px; margin-right: 0.5rem;"></i>
-                                                <p style="margin: 0; font-family: 'Manrope'; font-style: normal; font-weight: 600; font-size: 15px; line-height: 20px; letter-spacing: -0.02em; color: #4D4D4D;">
-                                                    Jan 20, 2020
-                                                </p>
+                                    <div class="card card-main">
+                                        <div class="card-body">
+                                            <div class="card-time">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <p>Jan 20, 2020</p>
                                             </div>
-                                            <p style="margin: 0; font-family: 'Manrope'; font-style: normal; font-weight: 700; font-size: 20px; line-height: 28px; letter-spacing: -0.02em; color: #4D4D4D; max-width: 100%;">
+                                            <p class="text">
                                                 Kalgen INNOLAB Kenalkan Layanan P...
                                             </p>
-                                            <hr style="margin: 1rem 0;">
-                                            <div style="display: flex; justify-content: space-between; align-items: center;">
-                                                <a href="#" style="font-family: 'Manrope'; font-style: normal; font-weight: 600; font-size: 16px; line-height: 20px; letter-spacing: -0.02em; color: #0B6C50; text-decoration: none;">
+                                            <hr>
+                                            <div class="read-more">
+                                                <a class="link" href="#">
                                                     Read More
                                                 </a>
-                                                <a href="#" style="text-decoration: none;">
-                                                    <i class="fa-solid fa-arrow-right" style="color:#0B6C50; width: 24px; height: 24px;"></i>
+                                                <a class="read-more-icon" href="#">
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -161,11 +150,11 @@
                 </div>
             </div>
             <br>
-            <a href="#" class="btn" style="background-color:#238655;color:#fff;height:64px;width:224px;font-family:'Subtitle 2',sans-serif;font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;width:200px;height:60px;border-radius:50px;font-size:16px;cursor:pointer;">
+            <a href="#" class="btn button-more-info">
                 Discover More
             </a>
         </div>
-   
+    </div>        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c96216a310.js" crossorigin="anonymous"></script>
